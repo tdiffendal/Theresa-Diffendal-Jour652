@@ -4,21 +4,43 @@ body {
       color: #444;
 }
 
-head {
+/*my name*/
+h1 {
   font-size: 3em;
   color: #33485e;
 }
 
-title {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    color: #33485e;
+/*my title, MA candidate*/
+b {
+  font-size: 1.5em;
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
 }
 
+/* Section Title */
 h2 {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   text-decoration-color: white;
   font-weight: 400;
+}
+
+/*job titles*/
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/* job dates */
+h5 {
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: italic;
+}
+
+/* list items under info, skills, education */
+li {
+  font-size: 1em;
 }
