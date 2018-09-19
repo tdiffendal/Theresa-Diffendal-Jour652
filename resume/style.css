@@ -1,8 +1,4 @@
-body,
-h1,
-p,
-ul,
-li, {
+body {
       font-family: 'Open Sans', arial, sans-serif;
       font-size: 12px;
       color: #444;
@@ -17,5 +13,12 @@ title {
     text-transform: uppercase;
     font-size: 1.5em;
     color: #33485e;
-    
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  text-decoration-color: white;
+  font-weight: 400;
 }
