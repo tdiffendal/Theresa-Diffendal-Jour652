@@ -35,6 +35,12 @@ h3 {
   font-size: 1.5em;
 }
 
+/*job companies*/
+h4{
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
 /* job dates */
 h5 {
   font-weight: 400;
