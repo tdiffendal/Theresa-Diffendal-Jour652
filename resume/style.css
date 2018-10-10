@@ -12,9 +12,7 @@
   padding-bottom: 50px;
   width: 100%;
   max-width: 1200px;
-  padding-right: 3em;
 }
-
 
 /*my name*/
 .name {
@@ -40,16 +38,13 @@
   width: 80%;
 }
 
-.contacts {
-  margin: 0 auto;
-  text-align: center;
-  }
-
 /*Buttons that will link to different resume pages*/
-  .buttons {
-    color: #6c757d;
+  input[type=button] {
+    background-color: #6c757d;
+    border-color: #212529;
     margin: 0 auto;
-    height: 30px;
+    height: 50px;
+    width: 130px;
   }
 
   .col-md-3 {
@@ -61,7 +56,7 @@
 .sectionheader {
   background-color: #33485e;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 400;
   margin: 20px 0 10px 0;
   padding-left: 20px;
@@ -72,7 +67,8 @@
 
 /*Job Container*/
 .jobs{
-
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
   .jobtitle {             /*job titles*/
@@ -96,20 +92,11 @@
     margin: 10px 10px 10px 10px;
   }
 
-/*Education Container*/
-.edus{
-
-}
-
-.degrees {              /*education li*/
-    margin-top: 5px;
+.do {              /*lis in education, skills*/
+    margin: 15px 15px 0 10px;
   }
 
 /* Skills Container*/
 .skills {
   padding: 0, 20px, 0, 20px;
 }
-
-  .do {
-    margin-top: 5px;
-  }
