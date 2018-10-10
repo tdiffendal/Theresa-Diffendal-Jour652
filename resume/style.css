@@ -3,15 +3,18 @@
 .jumbotron {
   text-align: center;
   width: 100%;
+  margin: 0 auto;
 }
 
 /*Will format all text*/
 #container {
-      margin: 0 auto;
-      padding-bottom: 50px;
-      width: 100%;
-      max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 3em;
 }
+
 
 /*my name*/
 .name {
@@ -39,17 +42,14 @@
 
 .contacts {
   margin: 0 auto;
-  }
-
-  .menu li {
-    display: inline; /*lists info horizontally*/
-    margin: 0 auto;
+  text-align: center;
   }
 
 /*Buttons that will link to different resume pages*/
   .buttons {
     color: #6c757d;
     margin: 0 auto;
+    height: 30px;
   }
 
   .col-md-3 {
@@ -112,8 +112,4 @@
 
   .do {
     margin-top: 5px;
-  }
-
-  li {
-    font-size: 1em;
   }
