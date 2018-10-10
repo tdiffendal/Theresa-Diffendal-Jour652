@@ -6,12 +6,13 @@
   margin: 0 auto;
 }
 
-/*Will format all text*/
+/*Will format all id'd text*/
 #container {
   margin: 0 auto;
   padding-bottom: 50px;
   width: 100%;
   max-width: 1200px;
+  background-color: #d7e0ee;
 }
 
 /*my name*/
@@ -41,7 +42,7 @@
 /*Buttons that will link to different resume pages*/
   input[type=button] {
     background-color: #6c757d;
-    border-color: #212529;
+    border-color: #c6d3e6;
     margin: 0 auto;
     height: 50px;
     width: 130px;
@@ -65,8 +66,8 @@
   min-width: 300px;
 }
 
-/*Job Container*/
-.jobs{
+/*Job Page*/
+.jobs {
   margin-left: 15px;
   margin-right: 10px;
 }
@@ -93,10 +94,5 @@
   }
 
 .do {              /*lis in education, skills*/
-    margin: 15px 15px 0 10px;
-  }
-
-/* Skills Container*/
-.skills {
-  padding: 0, 20px, 0, 20px;
+  margin: 15px 15px 0 10px;
 }
