@@ -4,9 +4,10 @@
 }
 
 h1 {
-
+text-align: center;
 }
 
 h2 {
-  
+  font-family: 'Helvetica', sans-serif;
+  size: 14pt;
 }
