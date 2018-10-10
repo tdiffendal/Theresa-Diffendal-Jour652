@@ -1,4 +1,8 @@
-/*Styles for Resume*/
+/*Styles for TheresaResume*/
+
+.jumbotron {
+  text-align: center;
+}
 
 /*Will format all text*/
 #container {
@@ -12,41 +16,7 @@
       max-width: 1200px;
 }
 
-/*my name*/
-#name {
-  border-bottom: 1px solid #33485e;
-  color: #33485e;
-  font-size: 3em;
-  margin: 0 auto;
-  text-transform: uppercase;
-  text-align: center;
-  width: 60%;
-  min-width: 300px;
-}
-
-/*my title, MA candidate*/
-#title {
-  color: #33485e;
-  font-size: 1.5em;
-  font-weight: 800;
-  margin-top: 20px 0 0 0;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-/*Contact information*/
-.menu {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-/*List contact info horizontally*/
-.menu li {
-  display: inline;
-}
-
-/* Section Title */
+/* Section Titles */
 .sectionheader {
   background-color: #33485e;
   color: #fff;
@@ -59,42 +29,87 @@
   min-width: 300px;
 }
 
-/*job titles*/
-.jobtitle {
-  font-weight: 600;
+/*my name*/
+.name {
+  border-bottom: 1px solid #33485e;
+  color: #33485e;
+  font-size: 3em;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60%;
+  min-width: 300px;
+}
+
+/*my title, MA candidate*/
+.title {
+  color: #33485e;
   font-size: 1.5em;
+  font-weight: 800;
+  margin-top: 20px 0 0 0;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-/*job companies*/
-.organization {
-  font-weight: 400;
-  font-size: 1.25em;
+/*Contact Container*/
+.contactcontainer {
+
 }
 
-/* job dates */
-.date {
-  font-weight: 400;
-  font-size: 1em;
-  font-style: italic;
-  margin: 2px 0 0 0;
+  .menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .menu li {
+    display: inline; /*lists info horizontally*/
+  }
+
+/*Job Container*/
+.jobcontainer{
+
 }
 
-/*Targets description of job*/
-.description {
-  margin: 10px 10px 10px 10px;
+  .jobtitle {             /*job titles*/
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+  .organization {         /*job companies*/
+    font-weight: 400;
+    font-size: 1.25em;
+  }
+
+  .date {                /* job dates */
+    font-weight: 400;
+    font-size: 1em;
+    font-style: italic;
+    margin: 2px 0 0 0;
+  }
+
+  .description {       /*Job Descriptions*/
+    margin: 10px 10px 10px 10px;
+  }
+
+/*Education Container*/
+.educontainer{
+
 }
 
-/* list items under education */
-#degrees {
-  margin-top: 5px;
+  .degrees {              /*education li*/
+    margin-top: 5px;
+  }
+
+/* Skills Container*/
+.skillcontainer {
+
 }
 
-/* list items under Skills */
-#do {
-  margin-top: 5px;
-}
+  .do {
+    margin-top: 5px;
+  }
 
-/*font-size of list items*/
-li {
-  font-size: 1em;
-}
+  li {
+    font-size: 1em;
+  }
