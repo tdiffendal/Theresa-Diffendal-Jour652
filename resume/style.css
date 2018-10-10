@@ -2,35 +2,15 @@
 
 .jumbotron {
   text-align: center;
+  width: 100%;
 }
 
 /*Will format all text*/
-.container {
-      color: #444;
-      font-family: 'Open Sans', arial, sans-serif;
-      font-size: 12px;
-      font-weight: 400;
+#container {
       margin: 0 auto;
       padding-bottom: 50px;
       width: 100%;
       max-width: 1200px;
-}
-
-.Buttons{
-
-}
-
-/* Section Titles */
-.sectionheader {
-  background-color: #33485e;
-  color: #fff;
-  font-size: 1.5em;
-  font-weight: 400;
-  margin: 20px 0 10px 0;
-  padding-left: 20px;
-  text-transform: uppercase;
-  width: 95%;
-  min-width: 300px;
 }
 
 /*my name*/
@@ -50,28 +30,48 @@
   color: #33485e;
   font-size: 1.5em;
   font-weight: 800;
-  margin-top: 20px 0 0 0;
+  margin: 0 auto;
+  padding: 20px, 20px, 0, 20px;
   text-transform: uppercase;
   text-align: center;
+  width: 80%;
 }
 
-/*Contact Container*/
-.contactcontainer {
-
-}
-
-  .menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.contacts {
+  margin: 0 auto;
   }
 
   .menu li {
     display: inline; /*lists info horizontally*/
+    margin: 0 auto;
   }
 
+/*Buttons that will link to different resume pages*/
+  .buttons {
+    color: #6c757d;
+    margin: 0 auto;
+  }
+
+  .col-md-3 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* Section Titles */
+.sectionheader {
+  background-color: #33485e;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+  padding-left: 20px;
+  text-transform: uppercase;
+  width: 95%;
+  min-width: 300px;
+}
+
 /*Job Container*/
-.jobcontainer{
+.jobs{
 
 }
 
@@ -97,7 +97,7 @@
   }
 
 /*Education Container*/
-.educontainer{
+.edus{
 
 }
 
@@ -106,8 +106,8 @@
   }
 
 /* Skills Container*/
-.skillcontainer {
-
+.skills {
+  padding: 0, 20px, 0, 20px;
 }
 
   .do {

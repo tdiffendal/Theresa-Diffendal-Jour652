@@ -1,13 +1,48 @@
 #content{
   margin: 0 auto;
   width: 900px;
+  font-family: 'Helvetica', sans-serif;
 }
 
 h1 {
-text-align: center;
+  text-align: center;
+  font-size: 24pt;
+  padding-top: .5em;
 }
 
 h2 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16pt;
+}
+
+h3 {
   font-family: 'Helvetica', sans-serif;
-  size: 14pt;
+  font-size: 12pt;
+  font-weight: normal;
+  font-style: italic;
+  padding: .5em;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.photos {
+  width:100%;
+  text-align: center;
+  padding-top: .5em;
+}
+
+.caption {
+  text-align: center;
+  padding-bottom: .5em;
+  font-family: 'Georgia', serif;
+  font-size: 12px;
+}
+
+.story {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  padding: 1em;
 }

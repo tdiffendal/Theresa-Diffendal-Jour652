@@ -24,8 +24,10 @@
 
 <body>
 
+  <div id="container">
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#theresa-resume.html">Home</a>
+   <a class="navbar-brand" href="theresa-resume.html">Home</a>
 
    <!-- Blocked out because I'm using buttons instead to navigate site
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,15 +63,14 @@
          Disabled link
          <li class="nav-item">
            <a class="nav-link disabled" href="#">Disabled</a>
-         </li>-->
-       </ul>
+         </li>
+       </ul>-->
 
        <!--search function-->
        <form class="form-inline my-2 my-lg-0">
          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
        </form>
-     </div>
     </nav>
 
   <!--Jumbotron hero content, button commented out-->
@@ -78,28 +79,24 @@
     <!--<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>-->
   </div>
 
-<!--Container for contact info-->
-  <div class="container">
-    <div class="name">Theresa Diffendal</div>
+<!--Name and Title-->
+  <div class="name">Theresa Diffendal</div>
+  <div class="title">M.J. Candidate at Philip Merrill College of Journalism, College Park, MD</div>
 
-    <div class="title">M.J. Candidate at Philip Merrill College of Journalism, College Park, MD</div>
+  <!--Contact Info-->
+<p><ul class="row contacts menu">
+    <li><a href="mailto:tdiff@umd.edu">tdiff@umd.edu</a></li>
+    <li><a href="https://www.linkedin.com/in/diffendalt/"> LinkedIn </a></li>
+    <li><a href="https://twitter.com/theresarose_"> Twitter</a></li>
+    <li><a href="https://github.com/tdiffendal"> GitHub </a></li>
+  </ul></p>
 
-    <!--Contact Info-->
-    <ul class="menu" "row">
-      <li><a href="mailto:tdiff@umd.edu">tdiff@umd.edu</a></li>
-      <li><a href="https://www.linkedin.com/in/diffendalt/"> LinkedIn </a></li>
-      <li><a href="https://twitter.com/theresarose_"> Twitter</a></li>
-      <li><a href="https://github.com/tdiffendal"> GitHub </a></li>
-    </ul>
-  </div>
-
-  <!--Create Buttons to link to other pages instead of nav bar-->
-  <div class="container" "row" "buttons">
-  <input type="button" class="btn btn-info" value="Experience" onclick="location.href = 'experience-resume.html';"/>
-  <input type="button" class="btn btn-info" value="Sample Clips" onclick="location.href = 'clips-resume.html';"/>
-  <input type="button" class="btn btn-info" value="Education" onclick="location.href = 'education-resume.html';"/>
-  <input type="button" class="btn btn-info" value="Skills" onclick="location.href = 'skills-resume.html';"/>
-
+<!--Create Buttons to link to other pages instead of nav bar-->
+<div class="row buttons">
+  <div class="col-md-3"><input type="button" class="btn btn-info" value="Experience" onclick="location.href = 'experience-resume.html';"/></div>
+  <div class="col-md-3"><input type="button" class="btn btn-info" value="Sample Clips" onclick="location.href = 'clips-resume.html';"/></div>
+  <div class="col-md-3"><input type="button" class="btn btn-info" value="Education" onclick="location.href = 'education-resume.html';"/></div>
+  <div class="col-md-3"><input type="button" class="btn btn-info" value="Skills" onclick="location.href = 'skills-resume.html';"/></div>
 </div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--how you set up bootstrap-->
@@ -107,5 +104,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+    </div>
   </body>
 </html>
