@@ -8,9 +8,6 @@
 
     <title>Theresa's Resume</title>
 
-    <!--Calling CSS Style Sheet-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <meta name="description" content="Bootstrap Resume Sheet">
     <meta name="author" content="Theresa Diffendal">
 
@@ -20,12 +17,15 @@
     <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+  <!--Calling CSS Style Sheet-->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <a class="navbar-brand" href="#">Pages</a>
+   <a class="navbar-brand" href="#theresa-resume.html">Home</a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -37,7 +37,18 @@
          </li>
          <li class="nav-item">
             <a class="nav-link" href="experience-resume.html">Experience</a>
-          </li>
+        </li>
+      <li class="nav-item dropdown">
+       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Sample Clips
+       </a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="#">UMD</a>
+         <a class="dropdown-item" href="#">Other Published</a>
+        <!-- <div class="dropdown-divider"></div>
+         <a class="dropdown-item" href="#">Something else here</a>
+       </div> -->
+     </li>
          <li class="nav-item">
             <a class="nav-link" href="education-resume.html">Education</a>
           </li>
@@ -66,19 +77,28 @@
   </div>
 
 <!--Container for contact info-->
-  <div class="contactcontainer" "row">
-  <div class="name">Theresa Diffendal</div>
+  <div class="container">
+    <div class="name">Theresa Diffendal</div>
 
     <div class="title">M.J. Candidate at Philip Merrill College of Journalism, College Park, MD</div>
 
     <!--Contact Info-->
-    <ul class="menu">
+    <ul class="menu" "row">
       <li><a href="mailto:tdiff@umd.edu">tdiff@umd.edu</a></li>
       <li><a href="https://www.linkedin.com/in/diffendalt/"> LinkedIn </a></li>
       <li><a href="https://twitter.com/theresarose_"> Twitter</a></li>
       <li><a href="https://github.com/tdiffendal"> GitHub </a></li>
     </ul>
   </div>
+
+  <!--Create Buttons to link to other pages instead of nav bar-->
+  <div class="container" "row" "buttons">
+  <input type="button" class="btn btn-info" value="Experience" onclick="location.href = 'experience-resume.html';"/>
+  <input type="button" class="btn btn-info" value="Sample Clips" onclick="location.href = 'clips-resume.html';"/>
+  <input type="button" class="btn btn-info" value="Education" onclick="location.href = 'education-resume.html';"/>
+  <input type="button" class="btn btn-info" value="Skills" onclick="location.href = 'skills-resume.html';"/>
+
+</div>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--how you set up bootstrap-->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
