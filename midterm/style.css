@@ -1,21 +1,18 @@
+.caption {
+  font-size:.8em;
+  text-align:center;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
 
 #container {
   margin: 2em 4em 2em 4em;
   font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
-
-h1 {
-  font-size:2.5em;
-  text-align:center;
-}
-
 h2 {
-  font-size:1.8em;
-}
-
-h3 {
-  font-size:1.2em;
+  font-size:1.5em;
+  text-align:center;
 }
 
 
@@ -40,11 +37,13 @@ p {
   font-style: italic;
 }
 
+/*li in related stories ul*/
 li{
   font-size: 1.2em;
   line-height: 1.7;
 }
 
+/*outside container for full width*/
 .footer {
   background-color: #1A1F2B;
   color: #D0E4F2;
