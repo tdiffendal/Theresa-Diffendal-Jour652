@@ -1,12 +1,22 @@
+body {
+  background-color: #69788c;
+  color:white;
+  letter-spacing: 1px;
+}
+
 .caption {
   font-size:.8em;
   text-align:center;
   font-family: 'Montserrat', Helvetica, sans-serif;
+  margin-bottom:1.5em;
 }
 
+/*format links*/
+a {
+  color: #f9e9b0;
+}
 
 #container {
-  margin: 2em 4em 2em 4em;
   font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
@@ -18,29 +28,42 @@ h2 {
 
 p {
   font-size: 1em;
-  font-family:Helvetica, Arial, sans-serif;
+  font-weight:50;
+  margin: 2em 5em 2em 5em;
 }
 
 .subhead {
-  border-bottom: 1px solid #FFF5E5;
+  border-bottom: 1px dotted #363344;
   font-size: 1.8em;
-  margin-bottom:.5em;
+  margin:2em 0 .5em 0;
   text-align: center;
 }
 
-.name {
-  font-size: 1.5em;
-  font-style: bold;
+.question {
+  margin: 0 5em 0 5em;
+  font-size:1.1em;
+  font-style: italic;
+  color:#f9e9b0;
 }
 
-.question {
+.pquote {
+  background:#2f3853;
+  border-radius:10px;
+  font-weight:bold;
   font-style: italic;
+  margin-left: auto;
+  margin-right: auto;
+  padding:13px;
+  text-align: center;
+  width:500px;
 }
 
 /*li in related stories ul*/
 li{
+  color:#f9e9b0;
   font-size: 1.2em;
-  line-height: 1.7;
+  line-height: 2;
+  margin-left:6em;
 }
 
 /*outside container for full width*/
