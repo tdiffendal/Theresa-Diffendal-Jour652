@@ -1,0 +1,19 @@
+.container {
+  max-width: 1000px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align:center;
+}
+
+footer {
+  background-color: silver;
+  text-align: center;
+}
