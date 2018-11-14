@@ -72,6 +72,13 @@ h1 {
   padding-bottom: 15px;
 }
 
+.stack-image {
+  width:100%;
+  margin: 0 auto;
+  max-width:800px;
+  padding-top:30px;
+}
+
 .star-chap {
   width:20px;
 }
@@ -84,17 +91,10 @@ h2 .chaptertitle {
   width: 100%
 }
 
-.stack-image{
-  width:100%;
-  max-width:900px;
-  margin:0 auto;
-  padding-top:30px;
-}
-
 .caption {
   width:100%;
-  max-width:900px;
-  text-align:center;
+  max-width:800px;
+  margin:0 auto;
   padding-bottom:30px;
   font-family: 'Montserrat', sans-serif;
   color:#999;
