@@ -6,9 +6,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
 
-    <title>Bootstrap template</title>
+    <title>School Shooting Story</title>
 
-    <meta name="description" content="Bootstrap Template">
+    <meta name="JOUR652 School Shooting Story" content="Bootstrap Template">
     <meta name="author" content="Theresa Diffendal">
 
     <!--Bootstrap CSS-->
@@ -17,91 +17,123 @@
    <!-- Load c3.css -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
 
-   <!-- Load our CSS -->
-   <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- Load CSS -->
+   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
    <!-- Load d3.js and c3.js -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
 
+   <!--Importing Montserrat, PT from Google Fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet">
+
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <a class="navbar-brand" href="#">Navbar</a>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
+  <!--navbar-->
 
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav mr-auto">
-         <li class="nav-item active">
-           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">About</a>
-         </li>
+  <!--logo part-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="star-red.png" class="star-top">
+    <img src="star-blue.png" class="star-top">
+    An American Tragedy</a>
 
-         <!--Dropdown menu-->
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Dropdown
-           </a>
-           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-             <a class="dropdown-item" href="#">Action</a>
-             <a class="dropdown-item" href="#">Another action</a>
-             <div class="dropdown-divider"></div>
-             <a class="dropdown-item" href="#">Something else here</a>
-           </div>
-         </li>
-
-         <!--Disabled link-->
-         <li class="nav-item">
-           <a class="nav-link disabled" href="#">Disabled</a>
-         </li>
-       </ul>
-
-       <!--search function-->
-       <form class="form-inline my-2 my-lg-0">
-         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-       </form>
-     </div>
+    <!--anchors to sections-->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#WhenWhere">When & Where</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Carnage">The Carnage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Profile">A Profile</a>
+        </li>
+      </div>
     </nav>
 
-    <div class="container">
+    <!--Hero Image-->
+    <div class="hero-image">
+      <img src="gun.jpg">
+    </div>
 
-      <h1>The Headline Goes Here</h1>
-      <h3>Byline</h3>
+    <!--Start body container-->
+    <div class="intro-container">
 
-      <h2 class="chapterhead"> Chapter Title </h2>
+      <!--headline-->
+      <h1><b>An <span class="blue">American</span> Tragedy</b></h1>
+      <h3 class="byline"><b>Over 200 school shootings in two decades.
+        <br> What have we learned?</b></h3>
 
-      <p>paragraph text goes here</p>
+        <img src="star-red.png" class="star-mid">
+        <img src="star-blue.png" class="star-mid">
+        <img src="star-red.png" class="star-mid">
+        <img src="star-blue.png" class="star-mid">
 
     </div>
 
-    <img src="wunderground1.jpg" alt="Placeholder picture">
-    <p class="caption">Caption</p>
 
-    <div class="container">
-      <p>more paragraph text</p>
+    <div class="intro-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-      <!--set up columns-->
-      <div class="row">
-        <div class="col-md-4">
-          <p>Optional column 1</p>
-        </div>
-        <div class="col-md-4">
-          <p>optional column 2</p>
-        </div>
-        <div class="col-md-4">
-          <p>optional column 3</p>
-        </div>
-      </div>
+
+    <!--When and Where section-->
+    <div class="row">
+      <h2 class="chaptertitle">
+      <img src="star-red.png" class="star-chap">
+      <img src="star-blue.png" class="star-chap">
+      <a name="WhenWhere">When & Where</a></h2>
+
+      <p>Mauris sit amet massa vitae tortor condimentum lacinia quis. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Feugiat in fermentum posuere urna nec tincidunt praesent semper. Venenatis urna cursus eget nunc scelerisque viverra mauris. Nulla posuere sollicitudin aliquam ultrices sagittis orci a. Lectus sit amet est placerat in. In hendrerit gravida rutrum quisque non tellus orci ac. Tortor posuere ac ut consequat semper viverra nam libero. Scelerisque fermentum dui faucibus in ornare. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Purus non enim praesent elementum facilisis leo vel fringilla. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Dolor sit amet consectetur adipiscing elit. In ornare quam viverra orci sagittis eu volutpat odio. Viverra nam libero justo laoreet sit amet cursus sit amet. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Vestibulum sed arcu non odio euismod lacinia at quis risus. Feugiat nibh sed pulvinar proin.
+      </p>
+
+      <img src="girl.jpg" class="stack-image">
+      <p class="caption">Caption: Insert image or video above</p>
 
     </div>
 
+    <!--The Carnage Section-->
+    <div class="row">
+      <h2 class="chaptertitle">
+      <img src="star-red.png" class="star-chap">
+      <img src="star-blue.png" class="star-chap">
+      <a name="Carnage">The Carnage</a></h2>
+
+      <p>Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Est ullamcorper eget nulla facilisi etiam. Leo a diam sollicitudin tempor id eu nisl nunc. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Nam libero justo laoreet sit amet cursus. Malesuada pellentesque elit eget gravida. Sed augue lacus viverra vitae congue eu consequat. Urna molestie at elementum eu facilisis sed odio morbi quis. Sit amet purus gravida quis. Imperdiet dui accumsan sit amet nulla facilisi morbi. Adipiscing diam donec adipiscing tristique. Maecenas volutpat blandit aliquam etiam erat. Aliquam nulla facilisi cras fermentum odio. Ut etiam sit amet nisl purus in mollis nunc sed. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+
+    </div>
+
+    <br>
+
+    <!-- Graphic container-->
+    <div class="graphic-container">
+      <h2>Shootings by year</h2>
+      <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+      <div id="shootingsByYearChart"></div>
+      <b>Source: Data collected by The Washington Post</b>
+    </div>
+    <!-- END graphic container-->
+
+    <br>
+    <br>
+
+    <!--A Profile Section-->
+    <div class="row">
+      <h2 class="chaptertitle">
+        <img src="star-red.png" class="star-chap">
+        <img src="star-blue.png" class="star-chap">
+        <a name="Profile">A Profile</a>
+      </h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut faucibus pulvinar elementum integer enim neque. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Penatibus et magnis dis parturient montes nascetur ridiculus mus. Hendrerit gravida rutrum quisque non tellus orci ac. Sit amet justo donec enim. Mauris nunc congue nisi vitae suscipit tellus mauris a. Laoreet sit amet cursus sit amet dictum sit amet. Neque convallis a cras semper. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Elementum sagittis vitae et leo. Quam id leo in vitae turpis. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Ullamcorper malesuada proin libero nunc consequat. Vitae nunc sed velit dignissim. Sit amet purus gravida quis blandit. Sollicitudin tempor id eu nisl. Euismod lacinia at quis risus sed vulputate odio ut enim. Nibh praesent tristique magna sit amet purus gravida quis. In fermentum posuere urna nec tincidunt praesent semper feugiat.
+      </p>
+
+    </div>
 
     <footer class="footer">
       <p>Footer text</p>
@@ -113,5 +145,22 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+     <!-- c3 script-->
+      <script>
+      //CHART 1
+      var chart = c3.generate({
+       bindto: '#shootingsByYearChart',
+       data: {
+         x: 'x',
+         columns: [
+           ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+           ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+         ]
+       },
+       color: {
+         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+       }
+      });
+    </script>
   </body>
 </html>
