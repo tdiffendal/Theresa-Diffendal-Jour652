@@ -1,0 +1,157 @@
+.bg-dark {
+ background:#000 !important;
+}
+
+.navbar {
+ font-family: 'Montserrat', 'PT serif', serif;
+}
+
+ul.navbar-nav {
+ margin-left:50%;
+}
+
+.star-top {
+  width:15px;
+}
+
+a:link {
+  color:#e0162b;
+  decoration:none;
+}
+
+a:visited {
+  color:#0052a5;
+}
+
+a:hover {
+  color:#999;
+}
+
+.hero-image {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-container {
+  font-family: 'Montserrat', 'PT Serif', serif;
+  font-weight: 700;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.byline {
+  font-size: 1.5em;
+}
+
+.star-mid {
+  padding-top:15px;
+  width:15px;
+}
+
+.intro-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  margin: 0 auto;
+  max-width:800px;
+  padding: 25px 0 25px 0;
+}
+
+.row {
+  color: black;
+  font-size: 1em;
+  font-family: 'PT Serif', serif;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+p {
+ font-family: 'PT Serif', serif;
+ font-size:1.1em;
+ text-align:left;
+ line-height:180%;
+ margin: 5px 20px 5px 20px;
+}
+
+.stack-image {
+  width:100%;
+  margin: 0 auto;
+  padding-top:30px;
+}
+
+.star-chap {
+  width:20px;
+}
+
+h2 .chaptertitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  padding-top: 20px;
+  width: 100%
+}
+
+.caption {
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  padding-bottom:30px;
+  font-family: 'Montserrat', sans-serif;
+  color:#999;
+}
+
+.graphic-container {
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:30px;
+  width:100%;
+}
+
+.graphic-container h2 {
+  font-size: 2em;
+  margin-bottom:10px;
+}
+
+.graphic-container p {
+  text-align:center;
+}
+
+iframe {
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  margin:0 auto;
+  padding: 30px 0 30px 0;
+}
+
+ul {
+  margin-left: 40px;
+}
+
+.red {
+ color: #e0162b;
+}
+
+.blue {
+ color: #0052a5;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', 'PT serif', serif;
+  height: 100px;
+  padding: 25px;
+  width: 100%;
+}
