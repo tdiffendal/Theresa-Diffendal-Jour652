@@ -37,8 +37,7 @@
   <!--logo part-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="pob-logo.jpg" class="star-top">
-    <img src="pob-logo.jpg" class="star-top">
+    <img src="ship.png" class="star-top">
     Presidential Tariffs and the Port of Baltimore</a>
 
     <!--anchors to sections-->
@@ -73,8 +72,6 @@
 
         <img src="pob-logo.jpg" class="star-mid">
         <img src="pob-logo.jpg" class="star-mid">
-        <img src="pob-logo.jpg" class="star-mid">
-        <img src="pob-logo.jpg" class="star-mid">
 
     </div>
 
@@ -88,8 +85,7 @@
     <!--New section-->
     <div class="row">
       <h2 class="chaptertitle">
-      <img src="pob-logo.jpg" class="star-chap">
-      <img src="pob-logo.jpg" class="star-chap">
+      <img src="ship.png" class="star-chap">
       <a name="tariffs">The Price of Tariffs</a></h2>
 
       <p>The Trump Administration announced a series of tariffs earlier this year, seeking to offset low-price imports and impact alleged bad trade practices by countries such as China. Among the proposed tariffs, President Donald Trump called for a 10 percent levy on imported aluminum and a 25 percent tariff on imported steel, both of which went into effect on June 1. Canada, from which the United States imports most of its steel, is curiously exempt.</p>
@@ -115,8 +111,7 @@
     <!--New Section-->
     <div class="row">
       <h2 class="chaptertitle">
-      <img src="pob-logo.jpg" class="star-chap">
-      <img src="pob-logo.jpg" class="star-chap">
+      <img src="ship.png" class="star-chap">
       <a name="pob">The Port of Baltimore</a></h2>
 
       <p>The Port of Baltimore in particular employs 13,000 individuals directly and 127,000 indirectly, according to Rep. C.A. Dutch Ruppersberger who represents the Port.</p>
@@ -168,8 +163,7 @@
       <!--Decline Section-->
       <div class="row">
         <h2 class="chaptertitle">
-          <img src="pob-logo.jpg" class="star-chap">
-          <img src="pob-logo.jpg" class="star-chap">
+          <img src="ship.png" class="star-chap">
           <a name="decline">Signs of Decline?</a>
         </h2>
 
@@ -188,6 +182,8 @@
 
     <div class="row">
       <p>Statistics from the State Ports Authority show October was another month of decline in BMW exports through the Port of Charleston, the fourth in a row.</p>
+
+      <p>Back in Maryland, the MPA states that BMW is one of the Port of Baltimore’s largest auto customers. The CEO of Ford, another significant company for the Port, estimated that the tariffs on aluminum and steel cost them about $1 billion more just for the raw materials.</p>
     </div>
 
     <br>
@@ -202,8 +198,6 @@
     <br>
 
     <div class="row">
-      <p>Back in Maryland, the MPA states that BMW is one of the Port of Baltimore’s largest auto customers. The CEO of Ford, another significant company for the Port, estimated that the tariffs on aluminum and steel cost them about $1 billion more just for the raw materials.</p>
-
       <p>The White House began considering recommendations from the U.S. Commerce Department about whether to impose possible tariffs of up to 25 percent on imported cars and parts, two administration officials told Reuters. The President has threatened to enact these tariffs unless the European Union and Japan make certain trade compromises and are projected to significantly increase the cost of making and buying cars.</p>
 
       <p>In early December, Trump and Chinese President Xi Jinping met for dinner during the G20 summit in Buenos Aires, Argentina to talk trade. Trump said the talks constituted a "big leap forward" as part of his larger goal to fulfill a campaign promise to end China's supposedly unfair trade practices.</p>
@@ -236,8 +230,7 @@
     <!--Data Section-->
     <div class="row">
       <h2 class="chaptertitle">
-        <img src="pob-logo.jpg" class="star-chap">
-        <img src="pob-logo.jpg" class="star-chap">
+        <img src="ship.png" class="star-chap">
         <a name="data">Economic Data</a>
       </h2>
       <br>
@@ -355,9 +348,18 @@
     data: {
       x: 'x',
       columns: [
-        ['x', 11.21, 11.22, 11.23, 11.24, 11.25, 11.26, 11.27, 11.28, 11.29, 11.30, 12.01, 12.02, 12.03, 12.04],
+        ['x', '11-21-2018', '11-22-2018', '11-23-2018', '11-24-2018', '11-25-2018', '11-26-2018', '11-27-2018', '11-28-2018', '11-29-2018', '11-30-2018', '12-01-2018', '12-02-2018', '12-03-2018', '12-04-2018'],
         ['Average', 24464.69, 4, 24285.95, 1, 5, 24640.24, 24748.73, 25366.43, 25338.84, 25538.46, 1, 3, 25826.43, 25027.07],
       ]
+    },
+   axis: {
+       x: {
+           type: 'timeseries',
+           tick: {
+               count: 14,
+               format: '%M-%d-%y'
+           }
+       }
     },
     color: {
       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
