@@ -206,6 +206,21 @@
 
       <p>The White House began considering recommendations from the U.S. Commerce Department about whether to impose possible tariffs of up to 25 percent on imported cars and parts, two administration officials told Reuters. The President has threatened to enact these tariffs unless the European Union and Japan make certain trade compromises and are projected to significantly increase the cost of making and buying cars.</p>
 
+      <p>In early December, Trump and Chinese President Xi Jinping met for dinner during the G20 summit in Buenos Aires, Argentina to talk trade. Trump said the talks constituted a "big leap forward" as part of his larger goal to fulfill a campaign promise to end China's supposedly unfair trade practices.</p>
+
+      <p>With few details initially forthcoming - aside from words of a possible ceasefire and unsubstantiated boasts from Tump - the announcement sparked sudden highs and lows in the economy. Monday, following the meeting, the Dow  Jones Industrial Average rose almost 300 points. It was the closest the Dow has come to reclaiming positive gains for 2018 since the beginning of November. By the next day, however, the Dow plunged almost 800 points, or 3.1%, just from Monday, Dec. 3 to Tuesday, Dec. 4 as additional information about the meeting was released.</p>
+
+      <br>
+      <!-- Line Graphic container-->
+      <div class="graphic-container">
+        <h2>Line Graph</h2>
+        <p>Caption.</p>
+        <div id="dowj"></div>
+        <em>Source: Data collected by <a href="https://quotes.wsj.com/index/DJIA/advanced-chart">The Wall Street Journal</a></em>
+      </div>
+      <!-- END graphic container-->
+      <br>
+
       <p>It will likely take more time and data to see how the tariffs affect the Port of Baltimore beyond the announcement and initial implementation stages. The tariffs coupled with the loss of the GM plant could significantly impact the Port of Baltimore’s automobile industry, which the MPA said counted for 11% of their processed tonnage in 2016. There is the possibility for harm, but the economy - despite its recent steep slide - could surprise again.</p>
     </div>
 
@@ -233,8 +248,7 @@
       <b>My sources</b>
       <ul>
         <li><a href="https://data.maryland.gov/browse?tags=port%20of%20baltimore">Maryland.gov Open Data Portal</a></li>
-        <li><a href="https://github.com/StanfordGeospatialCenter/MSA">Link</a></li>
-        <li><a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/">Link</a></li>
+        <li><a href="https://quotes.wsj.com/index/DJIA/advanced-chart">The Wall Street Journal's Dow Jones Industrial Average</a></li>
         <li><a href="https://www2.ed.gov/admins/lead/safety/preventingattacksreport.pdf">Link</a></li>
         <li><a href="https://www.psychologytoday.com/us/blog/when-disaster-strikes-inside-disaster-psychology/201803/profiling-school-shooters">Link</a></li>
       </ul>
@@ -333,6 +347,21 @@
      color: {
        pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
      }
+   });
+
+   //Multi Line chart
+   var chart = c3.generate({
+    bindto: '#dowj',
+    data: {
+      x: 'x',
+      columns: [
+        ['x', 11.21, 11.22, 11.23, 11.24, 11.25, 11.26, 11.27, 11.28, 11.29, 11.30, 12.01, 12.02, 12.03, 12.04],
+        ['Average', 24464.69, 4, 24285.95, 1, 5, 24640.24, 24748.73, 25366.43, 25338.84, 25538.46, 1, 3, 25826.43, 25027.07],
+      ]
+    },
+    color: {
+      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+    }
    });
 
     </script>
