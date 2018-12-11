@@ -138,8 +138,13 @@ h2 .chaptertitle {
   margin:0 auto;
 }
 
-.c3-line {
+#dowj .c3-line {
   stroke-width:3px;
+}
+
+#tradechina .c3-line {
+  stroke-width:0px;
+  r:55px;
 }
 
 iframe {
