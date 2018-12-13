@@ -1,0 +1,233 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
+
+    <title>In Class C3 Assignment</title>
+
+    <meta name="description" content="Bootstrap Template">
+    <meta name="author" content="Theresa Diffendal">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Load our CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+   <!-- Load c3.css -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+
+   <!-- Load d3.js and c3.js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <!--Create Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">Navbar</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">About</a>
+         </li>
+
+         <!--Dropdown menu-->
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Dropdown
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="#">Action</a>
+             <a class="dropdown-item" href="#">Another action</a>
+             <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Something else here</a>
+           </div>
+         </li>
+
+         <!--Disabled link-->
+         <li class="nav-item">
+           <a class="nav-link disabled" href="#">Disabled</a>
+         </li>
+       </ul>
+
+       <!--search function-->
+       <form class="form-inline my-2 my-lg-0">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+       </form>
+     </div>
+    </nav>
+
+    <!--Start Overarching Container-->
+    <div class="container">
+
+      <h1>Presidential Tariffs and the Port of Baltimore</h1>
+      <h2><em>By Theresa Diffendal</em></h2>
+
+
+      <br><br>
+      <!--Timeline-->
+      <div class="graphic-container">
+        <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=18iU5YgqrHteWYwGqppUtsBAiCXmXUhARUu7QrdDK-BU&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='750' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+      </div>
+
+      <br>
+      <br>
+
+      <!-- Line Graphic container-->
+      <div class="graphic-container">
+        <h2>Counting Cars</h2>
+        <p>The number of autos handled by the Port of Baltimore for the first 10 months of 2018.</p>
+        <div id="autounits"></div>
+        <em>Source: Data collected by <a href="https://data.maryland.gov/Transportation/Maryland-Port-Administration-General-Cargo/2ir4-626w/data">Maryland.gov Open Data for MPA Genearl Cargo</a></em>
+      </div>
+      <!-- END graphic container-->
+
+      <br>
+      <br>
+      <!-- Line Graphic container-->
+      <div class="graphic-container">
+        <h2>Port of Baltimore's Largest Trade Partners by Value</h2>
+        <p>This graph compares the five countries that do they most trade with the Port of Baltimore by value of imports. The y-axis represents the percentage of the Port of Baltimore's total trade accounted for by each country. China has fallen to fourth largest, down from second in 2017.</p>
+        <div id="tradechina"></div>
+        <em>Source: Data collected by <a href="https://www.ustradenumbers.com/port/port-of-baltimore-md/">US Trade Numbers World City</a></em>
+      </div>
+      <!-- END graphic container-->
+
+      <br>
+      <br>
+
+      <!-- Fusion Table Container-->
+      <div class="graphic-container">
+        <iframe width="700" height="600" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1ZzO-EsN4UgjFmd0-uSZSCJs7gcGxMinws5sBm6AI&amp;viz=MAP&amp;h=false&amp;lat=17.907727987945997&amp;lng=78.9082020521164&amp;t=1&amp;z=3&amp;l=col2&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>
+        <em>A global map showing the Port of Baltimore's largest trading partners by value in 2018 YTD.</em>
+      </div>
+
+      <br>
+      <br>
+
+      <!-- Line Graphic container-->
+      <div class="graphic-container">
+        <h2>Dow Jones Industrial Average</h2>
+        <p>The graph below shows the daily average of the DJIA over the past two weeks, Nov. 19 - Dec. 4. Weekends and holidays are excluded from the count.</p>
+        <div id="dowj"></div>
+        <em>Source: Data collected by <a href="https://quotes.wsj.com/index/DJIA/advanced-chart">The Wall Street Journal</a></em>
+      </div>
+      <!-- END graphic container-->
+
+      <br>
+      <br>
+
+    <!--End Container-->
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p>Footer text</p>
+      <p>Copyright Theresa Diffendal UMD 2018</p>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> <!--how you set up bootstrap-->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+     <!--c3 Script-->
+     <script type="text/javascript">
+
+     //Multi Line chart
+     var auto = [
+      ['x', 'Jan 2018', 'Feb 2018', 'March 2018', 'April 2018', 'May 2018', 'June 2018', 'July 2018', 'Aug 2018', 'Sept 2018', 'Oct 2018'],
+      ['Auto Units', 38016, 43553, 50116, 50499, 61058, 53967, 55451, 65281, 53125, 50581]
+    ];
+
+     var chart = c3.generate({
+      bindto: '#autounits',
+      data: {
+        x: 'x',
+        columns: auto,
+      },
+      axis: {
+          x: {
+              type: 'category',
+          }
+        },
+      color: {
+        pattern: ['#2a8dc5']
+      }
+     });
+
+     //Grouped Bar Graph Src="https://stackoverflow.com/questions/31275103/data-structure-for-c3-grouped-bar-charts"
+
+     var country = [
+      ['x',  'Germany', 'China', 'United Kingdom', 'Japan', 'Italy', 'Mexico'],
+      ['2017', 12, 9.5, 8.6, 8, 4.7, 4.1],
+      ['2018 YTD', 11, 8.3, 8.8, 9.1, 4.2, 4.2]
+  ];
+
+  var chart = c3.generate({
+      bindto: '#tradechina',
+      data: {
+          x: 'x',
+          columns: country,
+          type: 'bar',
+      },
+      bar: {
+          width: {
+              ratio: 0.8 // this makes bar width 50% of length between ticks
+          }
+      },
+      axis: {
+          x: {
+              type: 'category',
+          }
+      },
+      color: {
+        pattern: ['#2a8dc5', '#455380']
+      }
+  });
+
+     //Multi Line chart
+     var chart = c3.generate({
+      bindto: '#dowj',
+      data: {
+        x: 'x',
+        columns: [
+          ['x', '2018-11-19', '2018-11-20', '2018-11-21', '2018-11-23', '2018-11-26', '2018-11-27', '2018-11-28', '2018-11-29', '2018-11-30', '2018-12-03', '2018-12-04'],
+          ['Average', 25017.44, 24465.64, 24464.69, 24285.95, 24640.24, 24748.73, 25366.43, 25338.84, 25538.46, 25826.43, 25027.07],
+        ]
+      },
+     axis: {
+         x: {
+             type: 'timeseries',
+             tick: {
+                 count: 11,
+                 format: '%Y-%m-%d'
+             }
+         }
+      },
+      point: {
+        r:6,
+      },
+      color: {
+        pattern: ['#fdb813']
+      }
+     });
+
+      </script>
+
+  </body>
+</html>
